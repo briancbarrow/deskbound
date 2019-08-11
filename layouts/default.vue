@@ -81,7 +81,10 @@
       :fixed="fixed"
       app
     >
-      <span>&copy; 2019</span>
+      <p>All content is found in "Deskbound" by Kelly Starrett. Find the book <a
+            href="https://www.amazon.com/dp/B01E1HDJ64/ref=cm_sw_em_r_mt_dp_U_nseuDbD9NTBTW"
+            target="_blank"
+          >here</a></p>
     </v-footer>
   </v-app>
 </template>
@@ -113,3 +116,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.v-footer p {
+  margin-bottom: 0;
+}
+</style>
