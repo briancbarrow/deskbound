@@ -1,70 +1,72 @@
 {
-    {
-        "title": "Head, Neck, and Jaw",
-        "overview": {
-            "methods": ["Contract and relax", "Pressure wave", "Smash and Floss", "Tack and Twist"],
-            "tools": ["Small Ball", "Large Ball"],
-            "estTime": 14 
-        },
-        "exercises": [
-            {
-                "name": "Head Mobilization",
-                "time": 2,
-                "steps": [
-                    "Position a small ball on your temple, next to your eye, and apply pressure",
-                    "To take up the soft tissue slack in your face spin the ball into your head",
-                    "Pressuring the ball into your head, open and close your mouth, raise your eyebrows, and make circles with your eyes"
-                ],
-                "imgSteps": [
-                    "./images/head1.png",
-                    "./images/head2.png",
-                    "./images/head3.png"
-                ]
+    "exercises": [
+        {
+            "title": "Head, Neck, and Jaw",
+            "overview": {
+                "methods": ["Contract and relax", "Pressure wave", "Smash and Floss", "Tack and Twist"],
+                "tools": ["Small Ball", "Large Ball"],
+                "estTime": 14 
             },
-            {
-                "name": "Jaw Mobilization",
-                "time": 2,
-                "steps": [
-                    "Position a ball on your jaw joint, or on the muscles of your jaw right in front of your ear",
-                    "Maintaining steady pressure, twist your hand. Move your jaw up and down and side to side",
-                    "You can also clench your teeth to contract and then relaxe, pressing the ball deeper into the muscle"
-                ],
-                "imgSteps": [
-                    "./images/jaw1.png",
-                    "./images/jaw2.png",
-                    "./images/jaw3.png"
-                ]
-            },
-            {
-                "name": "Anteriror Neck Mobilization",
-                "time": 2,
-                "steps": [
-                    "Tilt your head to the side, pin a ball to the side of your neck, and apply pressure",
-                    "While pressing the ball into your neck, bind up the tissue by twisting the ball in place",
-                    "Tilt your head away from the ball and move your head in different directions. Remember, the target area runs from your jaw down to your collarbone and around the front of your neck"
-                ],
-                "imgSteps": [
-                    "./images/antNeck1.png",
-                    "./images/antNeck2.png",
-                    "./images/antNeck3.png"
-                ]
-            },
-            {
-                "name": "Posterior Neck Mobilization",
-                "time": 2,
-                "steps": [
-                    "Lying on your back, position a large ball in the center of your skull. You will feel a small pocket. Place one hand on your forehead to add pressure",
-                    "Slowly rotate your head to the side, rolling the ball along the base of your skull to your ear",
-                    "Turn your head to the opposite side, scouring the entire base of your skull",
-                    "To add even more pressure, cross your other arm over your forehead grabbing the front of your forearm with your bottom hand"
-                ],
-                "imgSteps": [
-                    "./images/postNeck1.png",
-                    "./images/postNeck2.png",
-                    "./images/postNeck3.png",
-                    "./images/postNeck4.png"
-                ]
-            }
-        ]
-    }
+            "exercises": [
+                {
+                    "name": "Head Mobilization",
+                    "time": 2,
+                    "steps": [
+                        "Position a small ball on your temple, next to your eye, and apply pressure",
+                        "To take up the soft tissue slack in your face spin the ball into your head",
+                        "Pressuring the ball into your head, open and close your mouth, raise your eyebrows, and make circles with your eyes"
+                    ],
+                    "imgSteps": [
+                        "./images/head1.png",
+                        "./images/head2.png",
+                        "./images/head3.png"
+                    ]
+                },
+                {
+                    "name": "Jaw Mobilization",
+                    "time": 2,
+                    "steps": [
+                        "Position a ball on your jaw joint, or on the muscles of your jaw right in front of your ear",
+                        "Maintaining steady pressure, twist your hand. Move your jaw up and down and side to side",
+                        "You can also clench your teeth to contract and then relaxe, pressing the ball deeper into the muscle"
+                    ],
+                    "imgSteps": [
+                        "./images/jaw1.png",
+                        "./images/jaw2.png",
+                        "./images/jaw3.png"
+                    ]
+                },
+                {
+                    "name": "Anteriror Neck Mobilization",
+                    "time": 2,
+                    "steps": [
+                        "Tilt your head to the side, pin a ball to the side of your neck, and apply pressure",
+                        "While pressing the ball into your neck, bind up the tissue by twisting the ball in place",
+                        "Tilt your head away from the ball and move your head in different directions. Remember, the target area runs from your jaw down to your collarbone and around the front of your neck"
+                    ],
+                    "imgSteps": [
+                        "./images/antNeck1.png",
+                        "./images/antNeck2.png",
+                        "./images/antNeck3.png"
+                    ]
+                },
+                {
+                    "name": "Posterior Neck Mobilization",
+                    "time": 2,
+                    "steps": [
+                        "Lying on your back, position a large ball in the center of your skull. You will feel a small pocket. Place one hand on your forehead to add pressure",
+                        "Slowly rotate your head to the side, rolling the ball along the base of your skull to your ear",
+                        "Turn your head to the opposite side, scouring the entire base of your skull",
+                        "To add even more pressure, cross your other arm over your forehead grabbing the front of your forearm with your bottom hand"
+                    ],
+                    "imgSteps": [
+                        "./images/postNeck1.png",
+                        "./images/postNeck2.png",
+                        "./images/postNeck3.png",
+                        "./images/postNeck4.png"
+                    ]
+                }
+            ]
+        }
+    ]
 }
