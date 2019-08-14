@@ -1,5 +1,6 @@
 import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin'
 import pkg from './package'
+import { join } from 'path';
 
 export default {
   mode: 'universal',
@@ -33,7 +34,10 @@ export default {
   ** Global CSS
   */
   css: [
-    '~/assets/style/app.styl'
+    {
+      src: join(__dirname, 'assets/style/app.styl'),
+      lang: 'styl'
+    }
   ],
 
   /*
