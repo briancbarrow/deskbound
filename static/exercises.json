@@ -70,23 +70,24 @@
                 }
             ]
         },
-        "testing": {
-            "title": "Head, Neck, and Jaw",
-            "name": "head-neck-jaw",
+        "hip": {
+            "title": "Hip",
+            "name": "hip",
             "mainImage": "/images/antNeck1.png",
             "overview": {
-                "methods": ["Contract and relax", "Pressure wave", "Smash and Floss", "Tack and Twist"],
-                "tools": ["Small Ball", "Large Ball"],
-                "estTime": 14 
+                "methods": ["Banded flossing", "Contract and relax", "Pressure wave", "Smash and floss"],
+                "tools": ["Band", "Large Ball"],
+                "estTime": 16
             },
             "exercises": [
                 {
-                    "name": "Head Mobilization",
+                    "name": "Anterior Hip Smash",
                     "time": 2,
                     "steps": [
-                        "Position a small ball on your temple, next to your eye, and apply pressure",
-                        "To take up the soft tissue slack in your face spin the ball into your head",
-                        "Pressuring the ball into your head, open and close your mouth, raise your eyebrows, and make circles with your eyes"
+                        "Position a large ball on your hip flexor.",
+                        "Contract and relax or flex and extend your lower leg",
+                        "You can alos smash and floss by curling your heel toward your butt and moving leg from side to side",
+                        "Or you can pressure wave across your help flexor area by rotating his from side to side"
                     ],
                     "imgSteps": [
                         "./images/head1.png",
@@ -95,12 +96,14 @@
                     ]
                 },
                 {
-                    "name": "Jaw Mobilization",
+                    "name": "Classic Hip Extension",
                     "time": 2,
                     "steps": [
-                        "Position a ball on your jaw joint, or on the muscles of your jaw right in front of your ear",
-                        "Maintaining steady pressure, twist your hand. Move your jaw up and down and side to side",
-                        "You can also clench your teeth to contract and then relaxe, pressing the ball deeper into the muscle"
+                        "Kneel on ground, distributing weight over your grounded knee",
+                        "Maintaining a neutral spinal position, squeeze your butt and shift your weight forward",
+                        "Don't overextend at the low back as you open your hips by keeping your butt squeezed, keeping abs on tension and focus shifting your weight forward over your grounded knee",
+                        "From here you can contract or relax your 'stretched' thigh to sink deeper into the movement.",
+                        "To increase the intensity and tap into your high hip stiffness, bring your left arm over your head (if your left knee is on the ground), lean back (but do not arch), and then come back to center."
                     ],
                     "imgSteps": [
                         "./images/jaw1.png",

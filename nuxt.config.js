@@ -1,4 +1,4 @@
-import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin'
+// import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin'
 import pkg from './package'
 import { join } from 'path';
 
@@ -33,18 +33,12 @@ export default {
   /*
   ** Global CSS
   */
-  css: [
-    {
-      src: join(__dirname, 'assets/style/app.styl'),
-      lang: 'styl'
-    }
-  ],
+  css: [{ src: '~/assets/style/bulma.scss', lang: 'scss' }],
 
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/vuetify'
   ],
 
   /*
@@ -54,7 +48,14 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
+    '@nuxtjs/style-resources',
+    // '@nuxtjs/bulma',
   ],
+  styleResources: {
+      scss: [
+          'assets/style/bulma.scss',
+      ]
+  },
   /*
   ** Axios module configuration
   */
@@ -66,17 +67,23 @@ export default {
   ** Build configuration
   */
   build: {
-    transpile: ['vuetify/lib'],
-    plugins: [new VuetifyLoaderPlugin()],
     loaders: {
-      stylus: {
-        import: ['~assets/style/variables.styl']
+    },
+    postcss: {
+      plugins: {
+        'postcss-preset-env': {
+          features: {
+            customProperties: false
+          }
+        }
       }
     },
     /*
     ** You can extend webpack config here
     */
     extend(config, ctx) {
+      // Run ESLint on save
+      
     }
   }
 }

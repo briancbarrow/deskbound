@@ -1,0 +1,24 @@
+/* Import Bulma Utilities */
+@import '~bulma/sass/utilities/initial-variables';
+@import '~bulma/sass/utilities/functions';
+
+/* Variable changes go here */
+
+// Colours
+$primary: #d0eeed;
+$secondary: #000;
+$deskbound-gray: #C5C3C6;
+$deskbound-lightgray: #DCDCDD;
+$deskbound-black: #46494C;
+$deskbound-blue: #1985A1;
+$deskbound-space: #4C5C68;
+
+
+// Breakpoints
+$tablet: 724px;
+$desktop: 960px + (2 * $gap);
+$widescreen: 1152px + (2 * $gap);
+$fullhd: 1344px + (2 * $gap);
+
+/* Import the rest of Bulma */
+@import '~bulma';
