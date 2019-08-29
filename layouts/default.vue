@@ -1,115 +1,86 @@
 <template>
-  <v-app dark>
-    <v-navigation-drawer
-      v-model="drawer"
-      :mini-variant="miniVariant"
-      :clipped="clipped"
-      fixed
-      app
-    >
-      <v-list>
-        <v-list-tile
-          v-for="(item, i) in items"
-          :key="i"
-          :to="item.to"
-          router
-          exact
+  <div class="main-app">
+    <nav class="navbar" role="navigation">
+      <div class="navbar-brand">
+        <div
+          role="button"
+          class="navbar-burger burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbar"
+          v-on:click="toggleMenu"
         >
-          <v-list-tile-action>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-tile-action>
-          <v-list-tile-content>
-            <v-list-tile-title v-text="item.title" />
-          </v-list-tile-content>
-        </v-list-tile>
-      </v-list>
-    </v-navigation-drawer>
-    <v-toolbar
-      :clipped-left="clipped"
-      fixed
-      app
-    >
-      <v-toolbar-side-icon @click="drawer = !drawer" />
-      <v-btn
-        icon
-        @click.stop="miniVariant = !miniVariant"
-      >
-        <v-icon>{{ `chevron_${miniVariant ? 'right' : 'left'}` }}</v-icon>
-      </v-btn>
-      <v-btn
-        icon
-        @click.stop="clipped = !clipped"
-      >
-        <v-icon>web</v-icon>
-      </v-btn>
-      <v-btn
-        icon
-        @click.stop="fixed = !fixed"
-      >
-        <v-icon>remove</v-icon>
-      </v-btn>
-      <v-toolbar-title v-text="title" />
-      <v-spacer />
-      <v-btn
-        icon
-        @click.stop="rightDrawer = !rightDrawer"
-      >
-        <v-icon>menu</v-icon>
-      </v-btn>
-    </v-toolbar>
-    <v-content>
-      <v-container>
-        <nuxt />
-      </v-container>
-    </v-content>
-    <v-navigation-drawer
-      v-model="rightDrawer"
-      :right="right"
-      temporary
-      fixed
-    >
-      <v-list>
-        <v-list-tile @click.native="right = !right">
-          <v-list-tile-action>
-            <v-icon light>compare_arrows</v-icon>
-          </v-list-tile-action>
-          <v-list-tile-title>Switch drawer (click me)</v-list-tile-title>
-        </v-list-tile>
-      </v-list>
-    </v-navigation-drawer>
-    <v-footer
-      :fixed="fixed"
-      app
-    >
-      <span>&copy; 2019</span>
-    </v-footer>
-  </v-app>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </div>
+      </div>
+      <div class="navbar-menu" v-bind:class="{'is-active': isOpen}" id="navbar">
+        <div class="navbar-start">
+          <a v-for="(item, i) in items" :key="i" :href="item.to" class="navbar-item">{{item.title}}</a>
+        </div>
+      </div>
+    </nav>
+
+    <nuxt />
+    <footer app>
+      <p>
+        All content is found in "Deskbound" by Kelly Starrett. Find the book
+        <a
+          href="https://www.amazon.com/dp/B01E1HDJ64/ref=cm_sw_em_r_mt_dp_U_nseuDbD9NTBTW"
+          target="_blank"
+          rel="noopener noreferrer"
+        >here</a>
+      </p>
+    </footer>
+  </div>
 </template>
 
 <script>
 export default {
   data() {
     return {
-      clipped: false,
-      drawer: false,
-      fixed: false,
+      isOpen: false,
       items: [
         {
-          icon: 'apps',
-          title: 'Welcome',
-          to: '/'
+          icon: "apps",
+          title: "Welcome",
+          to: "/"
         },
         {
-          icon: 'bubble_chart',
-          title: 'Inspire',
-          to: '/inspire'
+          icon: "bubble_chart",
+          title: "Exercises",
+          to: "/exercises"
         }
-      ],
-      miniVariant: false,
-      right: true,
-      rightDrawer: false,
-      title: 'Vuetify.js'
+      ]
+    };
+  },
+  methods: {
+    toggleMenu: function() {
+      console.log("HELLO")
+      this.isOpen = !this.isOpen
     }
   }
-}
+};
 </script>
+
+<style lang="scss" scoped>
+.main-app {
+  height: 100vh;
+  position: relative;
+}
+
+footer {
+  background-color: $deskbound-gray;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  margin-top: 2rem;
+}
+
+.navbar-burger {
+  margin-right: auto;
+  margin-left: 0;
+}
+</style>

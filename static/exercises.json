@@ -1,0 +1,147 @@
+{
+    "exercises": {
+        "head-neck-jaw": {
+            "title": "Head, Neck, and Jaw",
+            "name": "head-neck-jaw",
+            "mainImage": "/images/antNeck1.png",
+            "overview": {
+                "methods": ["Contract and relax", "Pressure wave", "Smash and Floss", "Tack and Twist"],
+                "tools": ["Small Ball", "Large Ball"],
+                "estTime": 14 
+            },
+            "exercises": [
+                {
+                    "name": "Head Mobilization",
+                    "time": 2,
+                    "steps": [
+                        "Position a small ball on your temple, next to your eye, and apply pressure",
+                        "To take up the soft tissue slack in your face spin the ball into your head",
+                        "Pressuring the ball into your head, open and close your mouth, raise your eyebrows, and make circles with your eyes"
+                    ],
+                    "imgSteps": [
+                        "./images/head1.png",
+                        "./images/head2.png",
+                        "./images/head3.png"
+                    ]
+                },
+                {
+                    "name": "Jaw Mobilization",
+                    "time": 2,
+                    "steps": [
+                        "Position a ball on your jaw joint, or on the muscles of your jaw right in front of your ear",
+                        "Maintaining steady pressure, twist your hand. Move your jaw up and down and side to side",
+                        "You can also clench your teeth to contract and then relaxe, pressing the ball deeper into the muscle"
+                    ],
+                    "imgSteps": [
+                        "./images/jaw1.png",
+                        "./images/jaw2.png",
+                        "./images/jaw3.png"
+                    ]
+                },
+                {
+                    "name": "Anteriror Neck Mobilization",
+                    "time": 2,
+                    "steps": [
+                        "Tilt your head to the side, pin a ball to the side of your neck, and apply pressure",
+                        "While pressing the ball into your neck, bind up the tissue by twisting the ball in place",
+                        "Tilt your head away from the ball and move your head in different directions. Remember, the target area runs from your jaw down to your collarbone and around the front of your neck"
+                    ],
+                    "imgSteps": [
+                        "./images/antNeck1.png",
+                        "./images/antNeck2.png",
+                        "./images/antNeck3.png"
+                    ]
+                },
+                {
+                    "name": "Posterior Neck Mobilization",
+                    "time": 2,
+                    "steps": [
+                        "Lying on your back, position a large ball in the center of your skull. You will feel a small pocket. Place one hand on your forehead to add pressure",
+                        "Slowly rotate your head to the side, rolling the ball along the base of your skull to your ear",
+                        "Turn your head to the opposite side, scouring the entire base of your skull",
+                        "To add even more pressure, cross your other arm over your forehead grabbing the front of your forearm with your bottom hand"
+                    ],
+                    "imgSteps": [
+                        "./images/postNeck1.png",
+                        "./images/postNeck2.png",
+                        "./images/postNeck3.png",
+                        "./images/postNeck4.png"
+                    ]
+                }
+            ]
+        },
+        "hip": {
+            "title": "Hip",
+            "name": "hip",
+            "mainImage": "/images/antNeck1.png",
+            "overview": {
+                "methods": ["Banded flossing", "Contract and relax", "Pressure wave", "Smash and floss"],
+                "tools": ["Band", "Large Ball"],
+                "estTime": 16
+            },
+            "exercises": [
+                {
+                    "name": "Anterior Hip Smash",
+                    "time": 2,
+                    "steps": [
+                        "Position a large ball on your hip flexor.",
+                        "Contract and relax or flex and extend your lower leg",
+                        "You can alos smash and floss by curling your heel toward your butt and moving leg from side to side",
+                        "Or you can pressure wave across your help flexor area by rotating his from side to side"
+                    ],
+                    "imgSteps": [
+                        "./images/head1.png",
+                        "./images/head2.png",
+                        "./images/head3.png"
+                    ]
+                },
+                {
+                    "name": "Classic Hip Extension",
+                    "time": 2,
+                    "steps": [
+                        "Kneel on ground, distributing weight over your grounded knee",
+                        "Maintaining a neutral spinal position, squeeze your butt and shift your weight forward",
+                        "Don't overextend at the low back as you open your hips by keeping your butt squeezed, keeping abs on tension and focus shifting your weight forward over your grounded knee",
+                        "From here you can contract or relax your 'stretched' thigh to sink deeper into the movement.",
+                        "To increase the intensity and tap into your high hip stiffness, bring your left arm over your head (if your left knee is on the ground), lean back (but do not arch), and then come back to center."
+                    ],
+                    "imgSteps": [
+                        "./images/jaw1.png",
+                        "./images/jaw2.png",
+                        "./images/jaw3.png"
+                    ]
+                },
+                {
+                    "name": "Anteriror Neck Mobilization",
+                    "time": 2,
+                    "steps": [
+                        "Tilt your head to the side, pin a ball to the side of your neck, and apply pressure",
+                        "While pressing the ball into your neck, bind up the tissue by twisting the ball in place",
+                        "Tilt your head away from the ball and move your head in different directions. Remember, the target area runs from your jaw down to your collarbone and around the front of your neck"
+                    ],
+                    "imgSteps": [
+                        "./images/antNeck1.png",
+                        "./images/antNeck2.png",
+                        "./images/antNeck3.png"
+                    ]
+                },
+                {
+                    "name": "Posterior Neck Mobilization",
+                    "time": 2,
+                    "steps": [
+                        "Lying on your back, position a large ball in the center of your skull. You will feel a small pocket. Place one hand on your forehead to add pressure",
+                        "Slowly rotate your head to the side, rolling the ball along the base of your skull to your ear",
+                        "Turn your head to the opposite side, scouring the entire base of your skull",
+                        "To add even more pressure, cross your other arm over your forehead grabbing the front of your forearm with your bottom hand"
+                    ],
+                    "imgSteps": [
+                        "./images/postNeck1.png",
+                        "./images/postNeck2.png",
+                        "./images/postNeck3.png",
+                        "./images/postNeck4.png"
+                    ]
+                }
+            ]
+        }
+    }
+}
